@@ -8,8 +8,9 @@ print(lista)
 '''
 tambien se pueden presentar los datos de forma que mostrará el primer o ultimo valor y podemos indicar que mustre los demas
 '''
+     #       0           1       2           3           4       5       6       7   8
 lista = [ "lunes", "mártes","miércoles","jueves","viernes","sábado","domingo", 40, 5.8]
-print(lista[:5])
+print(lista[:5]) #inicio:final-1
 #llega hasta el dia viernes, ya que considera solo los valores que pide
 
 lista = [ "lunes", "mártes","miércoles","jueves","viernes","sábado","domingo", 40, 5.8]
@@ -20,7 +21,6 @@ print(lista[3:])
 tambien podemos seleccionar desde cierto punto de la indexación solo que MOSTRARÁ UN VALOR MENOS AL INDEXADO
 '''
 lista = [ "lunes", "mártes","miércoles","jueves","viernes","sábado","domingo", 40, 5.8]
-
 print(lista[2:5])
 '''
 como aqui se ve parte del indice 2 pero solo mostrara hasta el indice cuatro ya que muestra un valor menos al indicado
@@ -33,5 +33,6 @@ como aqui se ve parte del indice 2 pero solo mostrara hasta el indice cuatro ya 
 ['lunes', 'mártes', 'miércoles', 'jueves', 'viernes']
 ['jueves', 'viernes', 'sábado', 'domingo', 40, 5.8]
 ['miércoles', 'jueves', 'viernes']
+
 
 '''

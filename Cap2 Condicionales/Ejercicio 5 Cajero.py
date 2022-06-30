@@ -9,7 +9,7 @@ opc = int(input("Su saldo inicial es de $1000 que desea hacer: "
 
 if(opc == 1):
     ing=int(input("ingrese el dinero que depositará a su cuenta: "))
-    ing+=saldo
+    ing+=saldo #ing= ing  saldo
     print(f"Se ha ingresado el deposito, su saldo es de {ing}")
 elif(opc == 2):
     ret=int(input("ingrese el dinero que retirará de su cuenta: "))

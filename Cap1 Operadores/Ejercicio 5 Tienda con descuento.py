@@ -14,3 +14,6 @@ precio_F = precio - desc
 print(f"El precio final es: {precio_F:.2f}")
 
 
+
+
+
